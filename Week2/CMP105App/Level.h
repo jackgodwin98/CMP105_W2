@@ -24,6 +24,13 @@ private:
 	sf::RenderWindow* window;
 	Input* input;
 
+	int x;
+	int c;
+	int deltax;
+	int deltay;
+	sf::Vector2i MousePosition;
 	// Add your object here
-
+	sf::Font font;
+	sf::Text text;
+	sf::Text text2;
 };
